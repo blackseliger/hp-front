@@ -1,0 +1,155 @@
+.table {
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.table__header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    padding: 5px 50px 5px 0;   
+}
+
+
+.table__header-icon {
+    justify-self: end;
+    
+}
+
+
+.table__icon {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+}
+
+.table__icon-img {
+    cursor: pointer;
+}
+
+.table__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.table__content-body-row {
+    border: 1px solid darkgreen;
+    border-radius: 10px;
+}
+
+.table__content-row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 33%);
+    justify-items: center;
+}
+
+.table__content-cell-icons {
+    justify-self: center;
+}
+
+.form-group {
+    width: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    padding: 10px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.form-group_hidden {
+    display: none;
+}
+
+
+.form-group__label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.form-group__input {
+    position: relative;
+    display: inline-flex;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+.form-group__input .form-group__control {
+    width: 100%;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 17px 24px 13px 24px;
+}
+
+.form-group .form-group__input .form-group__control:focus {
+    border: 1px solid blueviolet;   
+    box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+}
+
+.form-group__buttons {
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.button {
+    height: 48px;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer
+}
+
+.table__button {
+    padding: 5px 10px;
+}
+
+
+.button_primary {
+    background-color: #4263EB;
+    color: #FFFFFF;
+}
+
+.button_primary:hover {
+    background-color: #5028C6;
+}
+
+
+
+
