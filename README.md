@@ -1,5 +1,5 @@
-# List Editor
-[![Build status](https://ci.appveyor.com/api/projects/status/p9556l9g0gvufshn?svg=true)](https://ci.appveyor.com/project/blackseliger/list-editor)
+# Table CRUD tasks
+[![Build status](https://ci.appveyor.com/api/projects/status/ree3pc9sruu2lynd?svg=true)](https://ci.appveyor.com/project/blackseliger/hp-front)
 
 
 GP :rocket: https://blackseliger.github.io/Popovers/ :rocket:
