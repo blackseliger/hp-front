@@ -2,7 +2,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ree3pc9sruu2lynd?svg=true)](https://ci.appveyor.com/project/blackseliger/hp-front)
 
 
-GP :rocket: https://blackseliger.github.io/Popovers/ :rocket:
+GP :rocket: https://blackseliger.github.io/hp-front/ :rocket:
 
 **Important!**
 
